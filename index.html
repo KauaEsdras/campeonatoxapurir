@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./20241211_164826.png">
+    <title>Formulário de Inscrição - Six Eight</title>
+</head>
+
+<body>
+
+    <!-- Título e Subtítulo -->
+    <header class="header">
+        <h1>Presencial de Free Fire em Xapurir</h1>
+        <h3>Secretaria do Estado de Indústria, Ciência e Tecnologia (SEICT)</h3>
+    </header>
+
+    <div class="container">
+        <form action="https://api.sheetmonkey.io/form/e6vL5uocQcrKJVuRA17jbU" method="post">
+
+            <!-- Sessão do Time -->
+            <h2>Sessão do Time</h2>
+            <label>Nome do Time: <input type="text" name="team_name" placeholder="EX: SIX EIGHT" required></label>
+
+            <!-- Informações do Capitão -->
+            <h2>Informações do Capitão</h2>
+            <label>Nome do Capitão: <input type="text" name="captain_name" placeholder="EX: João Victor"
+                    required></label>
+            <label>Nickname do Capitão: <input type="text" name="captain_nickname" placeholder="EX: SIX XXXX7"
+                    required></label>
+            <label>Número de Telefone do Capitão:
+                <input type="tel" name="captain_phone" required placeholder="EX: 68940028922" pattern="\d{11}"
+                    title="Insira exatamente 11 dígitos, sem espaços ou caracteres especiais">
+            </label>
+
+            <!-- Informações dos Jogadores -->
+            <h2>Informações do Jogador 2</h2>
+            <label>Nickname do Jogador 2: <input type="text" name="player2_nickname" placeholder="EX: SIX XXXYX"
+                    required></label>
+            <label>Número de Telefone do Jogador 2:
+                <input type="tel" name="player2_phone" required placeholder="EX: 68940028922" pattern="\d{11}"
+                    title="Insira exatamente 11 dígitos, sem espaços ou caracteres especiais">
+            </label>
+
+            <h2>Informações do Jogador 3</h2>
+            <label>Nickname do Jogador 3: <input type="text" name="player3_nickname" placeholder="EX: SIX XXX7X"
+                    required></label>
+            <label>Número de Telefone do Jogador 3:
+                <input type="tel" name="player3_phone" required placeholder="EX: 68940028922" pattern="\d{11}"
+                    title="Insira exatamente 11 dígitos, sem espaços ou caracteres especiais">
+            </label>
+
+            <h2>Informações do Jogador 4</h2>
+            <label>Nickname do Jogador 4: <input type="text" name="player4_nickname" placeholder="EX: SIX XXXJX"
+                    required></label>
+            <label>Número de Telefone do Jogador 4:
+                <input type="tel" name="player4_phone" required placeholder="EX: 68940028922" pattern="\d{11}"
+                    title="Insira exatamente 11 dígitos, sem espaços ou caracteres especiais">
+            </label>
+
+            <!-- Jogadores Reservas -->
+            <div id="reserves">
+                <div class="reserve" id="reserve1">
+                    <h2>Informações do Jogador 5</h2>
+                    <label>Nickname do Jogador 5: <input type="text" name="player5_nickname"
+                            placeholder="EX: SIX XXXXX"></label>
+                    <label>Número de Telefone do Jogador 5: <input type="number" name="player5_phone"
+                            placeholder="EX: 68940028922"></label>
+                </div>
+                <div class="reserve" id="reserve2">
+                    <h2>Informações do Jogador 6</h2>
+                    <label>Nickname do Jogador 6: <input type="text" name="player6_nickname"
+                            placeholder="EX: SIX XXXXX"></label>
+                    <label>Número de Telefone do Jogador 6: <input type="number" name="player6_phone"
+                            placeholder="EX: 68940028922"></label>
+                </div>
+            </div>
+            <button type="button" class="btn" id="addReserve">Adicionar Jogador Reserva</button>
+            <button type="button" class="btn" id="removeReserve">Remover Jogador Reserva</button>
+
+            <div class="info-section">
+                <h2 class="info-title">Informações Importantes</h2>
+                <div class="info-item">
+                    <h3>Data: <span class="info-detail">Dia 16 ao dia 19 de Janeiro</span></h3>
+                </div>
+                <div class="info-item">
+                    <h3>Em caso de dúvidas, entre em contato com o nosso suporte:</h3>
+                    <a href="https://wa.me/68992151055" target="_blank" class="info-support-link">Suporte via
+                        WhatsApp</a>
+                </div>
+                <div><h2 class="info-title">Apoio:</h2></div>
+                <div class="sponsors">
+                    <img src="https://seict.ac.gov.br/wp-content/uploads/2023/08/SEICT-2023.fw_.png" alt="Patrocinador 1">
+                    <img src="https://www.pop-ac.rnp.br/static/img/governo_acre.png" alt="Patrocinador 2">
+                    <img src="https://static.wixstatic.com/media/0204e8_60418e41fb6f4c0ab4b7cd32e9238fc7~mv2.png/v1/crop/x_158,y_194,w_734,h_580/fill/w_204,h_161,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0204e8_60418e41fb6f4c0ab4b7cd32e9238fc7~mv2.png"
+                        alt="Patrocinador 3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvDLOkC-59m9KZIpnlgoN2N9MUS3gIuuSI2w&s"
+                        alt="Patrocinador 4">
+                        <img src="/Concept Logo Complete - White and Green.png"
+                        alt="Patrocinador 5">
+                </div>
+            </div>
+
+
+
+    </div>
+
+    <!-- Botão de Enviar -->
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+    <input type="submit" value="Inscrever-se">
+    </form>
+    </div>
+
+    <!-- Ícone de Suporte -->
+    <div id="support-icon">
+        <a href="https://wa.me/68992151055" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
